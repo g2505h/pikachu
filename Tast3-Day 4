@@ -1,0 +1,24 @@
+#create variable 
+a = b = c = 10
+quotient = a/15
+print("The Quotient is")
+print (quotient)
+mul = b*20
+print("The product of b and 50 is")
+print(mul)
+sum = c+50
+print("The sum of c and 60 is")
+print (sum)
+# create a string and replace character
+string = "Hema"
+print(string.replace("a" ,"u"))
+# convert float into integer
+d = 3.6
+d = int(d)
+print("The converted number is")
+print (d)
+#convert integer into float
+e = 36
+e = float(e)
+print ("The converted number is")
+print(e)
