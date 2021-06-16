@@ -1,0 +1,23 @@
+# To create a list
+mylist = ["7", "9", "2","5"]
+mylist.insert(9,"0")
+print(mylist)
+# To remove a item from the list
+mylist.remove("2")
+print(mylist)
+#To assign a variable to the largest number
+mylist.sort()
+a = mylist[3]
+print ("The largest number is:",a)
+#To assign a variable to the smallest number
+b = mylist[0]
+print("The smallest number is:",b)
+# create a tuple
+x = ("Bestenlist")
+# reverse the tuple
+y = reversed(x)
+print(tuple(y))
+#To convert a tuple into list
+tuple = (9,8,7,6,5)
+d = list(tuple)
+print ("The list is:",d)
