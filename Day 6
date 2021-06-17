@@ -1,0 +1,29 @@
+#To merge two python dictionary
+d1 = {'a': 80, 'b': 25}
+d2 = {'x': 45, 'y': 23}
+d = d1.copy()
+d.update(d2)
+print (" The merged  Dictionary is:")
+print(d)
+#To remove a key from the dictionary
+myDict = {'a':5,'b':6,'c': 7,'d': 8,'e':9}
+print("original dictionary:",myDict)
+del myDict['b']
+print(" New dictionary:",myDict)
+# To map two lists into dictionary
+keys = ["Hema","Girija","Thamizh"]
+values = ["7","17","18"]
+mydict = dict(zip(keys,values))
+print ("Dictionary :",mydict)
+# To find thelength of the set
+set = {"Hema", "Abi", "Lalitha","Muruga"}
+print( "The length of the given set is: ",len(set))
+ # To remove intersection 
+x = {2, 3, 5, 6}
+y = {1, 2, 3, 4}
+print('Original sets')
+print(x)
+print(y)
+z = x.difference(y)
+print("Set obtained by removing intersection term from 1st set:")
+print(z)
