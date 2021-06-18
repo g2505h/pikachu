@@ -1,0 +1,23 @@
+# To create a function getting input from user
+a = int(input("Enter the first number:"))
+b = int(input("Enter the second number:"))
+# Addition of two numbers
+sum = a+b
+print("The sum of two integers:",sum)
+#Subtraction of two numbers
+dif = a-b
+print ("The difference between two integers:",dif)
+#Division of two numbers
+quotient = a/b
+print ("The Quotient :",quotient)
+# Multiplication of two numbers
+x = a*b
+print ("The product of two numbers:",x)
+# To create function
+def covid():
+    person = input("Patient Name:")
+    temp= 98
+    
+    print("Body Temperature: {}\n".format( temp))
+ 
+covid()
